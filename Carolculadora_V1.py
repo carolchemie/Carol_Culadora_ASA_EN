@@ -32,7 +32,7 @@ for r1 in c:
     z = (x * 3) * 94.527
     print('Acetic anhydride: ', round(z), 'mL')
     w = (x / 4) * 53.595
-    print('H2SO4: ', round(w), 'mL, or', round(w * 20), 'gotas')
+    print('H2SO4: ', round(w), 'mL, or', round(w * 20), 'drops')
     print("\t" + 'Create a report? Type' f"{bcolors.green}(Y) {bcolors.reset}" 'to continue or '
           ''f"{bcolors.green}(N) {bcolors.reset}" 'to finish.')
 cc = str(input("\t" + 'Type (Y/N): ')).upper()
@@ -48,7 +48,7 @@ if cc == r1:
         'an ice bath until crystallization is completed. The product will appear as a solid mass when crystallization is completed.'))
     print(' ')
     print(
-        f'{bcolors.red}Este calculo se refere ao rendimento teórico. Resultados práticos podem variar. {bcolors.reset}')
+        f'{bcolors.red}The theoretical yield is referred to in this calculation. Practical results may vary. {bcolors.reset}')
     print(' ')
     print('REFERENCE:')
     print('Palleros DR (2000). Experimental organic chemistry. New York: John Wiley & Sons. p. 494. ISBN 978-0-471-28250-1.')
@@ -57,11 +57,11 @@ if cc == r1:
 if cc == r2:
     print(' ')
     print(
-        f'{bcolors.red}Este calculo se refere ao rendimento teórico. Resultados práticos podem variar. {bcolors.reset}')
+        f'{bcolors.red}The theoretical yield is referred to in this calculation. Practical results may vary. {bcolors.reset}')
     print(' ')
     print('REFERENCE:')
     print('Palleros DR (2000). Experimental organic chemistry. New York: John Wiley & Sons. p. 494. ISBN 978-0-471-28250-1.')
-    print('Created by @carol.chemie')
+    print('Created by @carol.chemie on 07/2022')
 
 elif cc!= r1 and cc != r2:
     print("ERROR!")
